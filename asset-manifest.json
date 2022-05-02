@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/visitdenmark/prototype/static/css/main.c9f73535.css",
-    "main.js": "/visitdenmark/prototype/static/js/main.a3ab2160.js",
-    "static/media/filter-hero.png": "/visitdenmark/prototype/static/media/filter-hero.fd3e7c31caab5036ff9a.png",
-    "index.html": "/visitdenmark/prototype/index.html",
-    "main.c9f73535.css.map": "/visitdenmark/prototype/static/css/main.c9f73535.css.map",
-    "main.a3ab2160.js.map": "/visitdenmark/prototype/static/js/main.a3ab2160.js.map"
+    "main.css": "/visitdenmark/static/css/main.027dac53.css",
+    "main.js": "/visitdenmark/static/js/main.f5d993be.js",
+    "static/media/filter-hero.png": "/visitdenmark/static/media/filter-hero.fd3e7c31caab5036ff9a.png",
+    "index.html": "/visitdenmark/index.html",
+    "main.027dac53.css.map": "/visitdenmark/static/css/main.027dac53.css.map",
+    "main.f5d993be.js.map": "/visitdenmark/static/js/main.f5d993be.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9f73535.css",
-    "static/js/main.a3ab2160.js"
+    "static/css/main.027dac53.css",
+    "static/js/main.f5d993be.js"
   ]
 }
