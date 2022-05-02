@@ -43,13 +43,13 @@ header {
 .border-color {
 	height: 22.5em;
 	background: rgba(0, 0, 255, 0);
-	border: solid 0.3125em;
+	border: solid 0.3125em #fde6b2;
 }
 
 .info-box {
 	background-color: #ffffff;
 	height: 22.625em;
-	width: 22em;
+	width: 20em;
 	margin: -3.375em auto auto auto;
 	padding: 1em;
 }
@@ -60,12 +60,12 @@ header {
 	justify-content: center;
 }
 
-.top>h1 {
+.top > h1 {
 	margin-right: 0.3em;
 	font-size: 26px;
 }
 
-.info-box>h2 {
+.info-box > h2 {
 	font-size: 18px;
 	text-align: center;
 	margin: 0.8em 0;
@@ -79,14 +79,21 @@ header {
 	margin: 1em 0;
 }
 
-.info-box>p {
+.info-box > p {
 	text-align: center;
 	font-size: 12px;
 	margin: 1em 0;
 	line-height: 2;
 }
 
-.top>a {
+.truncate-style {
+	text-align: center;
+	font-size: 12px;
+	margin: 1em 0;
+	line-height: 2;
+}
+
+.top > a {
 	background-color: #f7f9fb;
 	border-radius: 50%;
 	display: flex;
@@ -95,7 +102,7 @@ header {
 	justify-content: center;
 }
 
-.top>a>svg {
+.top > a > svg {
 	fill: #e70013;
 	width: 0.8em;
 }
@@ -106,30 +113,75 @@ header {
 	height: 2.75em;
 	display: flex;
 	align-items: center;
-	margin-bottom: 1em;
+	margin: 1em 0;
 }
 
-.address>svg {
+.address > svg {
 	width: 0.8em;
 	fill: #e70013;
 	margin: 0 0.6em;
 }
 
-.address>p {
+.address > p {
 	font-weight: bold;
 	font-size: 12px;
 }
 
-.maps>img {
+.maps > img {
 	width: 100%;
 	height: 100%;
 }
 
+.action-buttons {
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	bottom: 0;
+	margin: 0 0 4em 6em;
+}
+
+.shuffle {
+	width: 3.9375em;
+	height: 3.9375em;
+	border-radius: 50%;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 1em;
+	margin-bottom: 1.1em;
+	box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 30%);
+	border: none;
+}
+.go {
+	width: 3.9375em;
+	height: 3.9375em;
+	border-radius: 50%;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 30%);
+	border: none;
+}
+
+.shuffle > svg {
+	width: 1.55625em;
+	fill: #022b52;
+}
+
+.go > svg {
+	width: 1.19125em;
+	fill: #00ab66;
+}
+
 footer {
-	height: 5em;
+	height: 4em;
 	width: 100%;
 	background-color: #e70013;
 	margin-top: auto;
+	position: fixed;
+	bottom: 0;
 }
 
 nav {
@@ -149,12 +201,12 @@ ul {
 	padding: 0 4em;
 }
 
-li>p {
+li > p {
 	font-size: 12px;
 	color: #ffffff;
 }
 
-li>svg {
+li > svg {
 	width: 1.26125em;
 	fill: #ffffff;
 	margin: 0 auto 0.5em 0;

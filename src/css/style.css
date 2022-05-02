@@ -50,29 +50,25 @@ main {
 .border-color {
 	height: 22.5em;
 	background: rgba(0, 0, 255, 0);
-	border: solid 0.3125em;
+	border: solid 0.3125em #fde6b2;
 }
 
 form {
 	background-color: #fde6b2;
-	height: 22.625em;
-	width: 22em;
+	height: 22em;
+	width: 20em;
 	margin: -3.375em auto auto auto;
-	/* padding: 1em; */
-}
-
-form {
 	padding: 1em;
 }
 
-form>h2 {
+form > h2 {
 	font-weight: normal;
 	text-align: center;
 	font-size: 20px;
 	margin-bottom: 0.5em;
 }
 
-form>p {
+form > p {
 	text-align: center;
 	font-size: 12px;
 	margin-bottom: 1em;
@@ -107,20 +103,22 @@ label {
 	font-size: 14px;
 }
 
-form>input[type='submit'] {
+form > input[type='submit'] {
 	background-color: #082747;
 	border: none;
 	color: #ffffff;
 	padding: 1em;
 	width: 7.5em;
-	margin-top: 0.8em;
+	margin-top: 2.3em;
 }
 
 footer {
-	height: 5em;
+	height: 4em;
 	width: 100%;
 	background-color: #e70013;
 	margin-top: auto;
+	position: fixed;
+	bottom: 0;
 }
 
 nav {
@@ -140,12 +138,12 @@ ul {
 	padding: 0 4em;
 }
 
-li>p {
+li > p {
 	font-size: 12px;
 	color: #ffffff;
 }
 
-li>svg {
+li > svg {
 	width: 1.26125em;
 	fill: #ffffff;
 	margin: 0 auto 0.5em 0;
