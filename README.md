@@ -8,5 +8,5 @@
 ## Prototype (Adobe XD)
 - https://xd.adobe.com/view/ef0c349e-c72f-4501-8796-a59422267fce-ba5f/
 
-## Kørende programmeret prototype (HTML & CSS) - Mobile Only
+## Kørende programmeret prototype
 - https://anscoding.github.io/visitdenmark/
